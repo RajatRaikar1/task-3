@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <h1 style="text-align: center; background: chartreuse;">Sign up</h1>
+        </div>
+            <div style="text-align: center;" >
+            <form action="/register" method="POST">
+                <input type="text" placeholder="Enter Name" name="username" ><br><br>
+                <input type="text" placeholder="Enter emailId" name="emailId" ><br><br>
+                <input type="password" placeholder="Enter password" name="password" required><br><br>
+                <input type="radio"  name="role" value="admin">
+                <label for="admin">admin</label>
+                <input type="radio" name="role" value="teacher">
+                <label for="treacher">teacher</label>
+                <input type="radio" name="role" value="student">
+                <label for="student">student</label>
+                <input type="submit">
+                <br><br>
+                <a href="/"> Click Here To Go Back To Home Page</a>
+            </form>
+        </div>
+    </body>
+</html>
