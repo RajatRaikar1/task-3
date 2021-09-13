@@ -1,6 +1,5 @@
 const express = require('express')
 const Course = require('../models/coursemodel')
-const Util = require('../util/util')
 const router = new express.Router()
 const bodyParser = require('body-parser')
 
